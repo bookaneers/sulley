@@ -24,7 +24,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "startSulley": "set PORT=9000 && react-scripts start",
+    "startSulley": "PORT=9000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
